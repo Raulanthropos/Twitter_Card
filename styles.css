@@ -10,12 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: auto;
     background-color: #f5f8fa;
 }
 
 .twitter-card {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     border: 1px solid #e1e8ed;
     border-radius: 10px;
     background-color: #fff;
@@ -30,8 +31,8 @@ body {
 }
 
 .profile-pic {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -42,12 +43,12 @@ body {
 
 .profile-name {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .profile-handle {
     color: #657786;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .twitter-icon {

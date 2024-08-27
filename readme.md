@@ -1,0 +1,1 @@
+Making a fully responsive twitter card with plain HTML and CSS, with no implemented functionality

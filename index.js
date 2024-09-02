@@ -55,7 +55,7 @@ function myMap(array1, array2) {
 
 myMap(array1, array2);
 
-//3. Filter
+//3. Filter 1
 
 function myFilter(array1, array2) {
     let flag = false;
@@ -79,3 +79,25 @@ function myFilter(array1, array2) {
 }
 
 myFilter(array1, array2);
+
+//4. Filter 2
+
+let match = []
+function myFilter() {
+    array1.filter(element => {
+    for(let i=0; i < array2.length; i++) {
+    const arr1sort = element.split('').sort().join();
+		const arr2sort = array2[i].split('').sort().join();
+    if (arr1sort === arr2sort && element !== array2[i]) {
+    match.push(element, array2[i])
+    return true
+    }
+    }
+        return false
+    })
+    return match
+}
+
+const result = myFilter();
+
+console.log(result)
